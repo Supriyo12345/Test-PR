@@ -1,0 +1,317 @@
+optimizationParameters:
+  - code: OP_000007
+    min: 10
+    max: 30
+    operator: Range
+  - code: OP_000012
+    min: 10
+    max: 20
+  - code: OP_000022
+    values: [True, False]
+    operator: Equal
+  - code: OP_000023
+    min: 5
+    max: 9
+    operator: Range
+  - code: OP_000006
+    min: 1
+    max: 5
+    operator: Range
+  - code: OP_000024
+    min: 0.1
+    max: 0.6
+    operator: Range
+
+
+ingredients:
+  list:
+    - code: I-003001_S-000102
+      category: Nuts
+    - code: I-003002_S-004001
+      category: Flavor
+    - code: I-003003_S-004002
+      category: Nuts
+    - code: I-003004_S-000102
+      category: Butter/Spread
+    - code: I-003005_S-000102
+      category: Cereals
+    - code: I-003006_S-000102
+      category: Cereals
+    - code: I-003007_S-000102
+      category: Cereals
+    - code: I-003008_S-000102
+      category: Antioxidant
+    - code: I-003009_S-000102
+      category: Flavor
+    - code: I-003010_S-000102
+      category: Flavor
+    - code: I-003011_S-000102
+      category: Fruits
+    - code: I-003012_S-000102
+      category: Lentil
+    - code: I-003013_S-000102
+      category: Salt
+    - code: I-003014_S-000102
+      category: Nuts
+    - code: I-003015_S-000102
+      category: Flavor
+    - code: I-003016_S-000102
+      category: Cereals
+    - code: I-003017_S-000102
+      category: Cereals
+    - code: I-003018_S-000102
+      category: Syrup
+    - code: I-003019_S-000102
+      category: Cereals
+    - code: I-003021_S-000102
+      category: Nuts
+    - code: I-003022_S-000102
+      category: Protein
+    - code: I-003023_S-000102
+      category: Seeds
+    - code: I-003024_S-000102
+      category: Lentil
+    - code: I-003025_S-000102
+      category: Flavor
+    - code: I-003026_S-000102
+      category: Chocolate
+    - code: I-003027_S-000102
+      category: Chocolate
+    - code: I-003028_S-000102
+      category: Flavor
+    - code: I-003029_S-000102
+      category: Acidity regulator
+    - code: I-003030_S-000102
+      category: Cocoa solids
+    - code: I-003031_S-000102
+      category: Cocoa solids
+    - code: I-003032_S-000102
+      category: Nuts
+    - code: I-003130_S-004003
+      category: Coffee
+    - code: I-003033_S-002001
+      category: Fiber
+    - code: I-003034_S-000102
+      category: Flavor
+    - code: I-003131_S-004007
+      category: Flavor
+    - code: I-003035_S-000102
+      category: Flavor
+    - code: I-003036_S-000102
+      category: Chocolate
+    - code: I-003037_S-004004
+      category: Chocolate
+    - code: I-003038_S-000102
+      category: Dry Fruit
+    - code: I-003039_S-004005
+      category: Dry Fruit
+    - code: I-003040_S-004006
+      category: Protein
+    - code: I-003042_S-000102
+      category: Fruits
+    - code: I-003043_S-000102
+      category: Fruits
+    - code: I-003044_S-000102
+      category: Fruits
+    - code: I-003045_S-000102
+      category: Fruits
+    - code: I-003046_S-000102
+      category: Fruits
+    - code: I-003047_S-000102
+      category: Fruits
+    - code: I-003048_S-000102
+      category: Dry Fruit
+    - code: I-003049_S-000102
+      category: Seeds
+    - code: I-003050_S-000102
+      category: Seeds
+    - code: I-003051_S-000102
+      category: Cereals
+    - code: I-003052_S-000102
+      category: Syrup
+    - code: I-003053_S-000102
+      category: Flavor
+    - code: I-003054_S-000102
+      category: Flavor
+    - code: I-003055_S-000102
+      category: Humectant
+    - code: I-003056_S-000102
+      category: Lentil
+    - code: I-003057_S-000102
+      category: Fruits
+    - code: I-003058_S-000102
+      category: Flavor
+    - code: I-001013_S-000102
+      category: Gum
+    - code: I-003059_S-000102
+      category: Antioxidant
+    - code: I-003060_S-000102
+      category: Syrup
+    - code: I-003061_S-000102
+      category: Fiber
+    - code: I-003062_S-000102
+      category: Flavor
+    - code: I-003063_S-000102
+      category: Nuts
+    - code: I-003064_S-000102
+      category: Fat
+    - code: I-003065_S-000102
+      category: Salt
+    - code: I-003066_S-000102
+      category: Syrup
+    - code: I-003067_S-000102
+      category: Cereals
+    - code: I-003068_S-000102
+      category: Cereals
+    - code: I-003069_S-000102
+      category: Flavor
+    - code: I-003070_S-000102
+      category: Protein
+    - code: I-003071_S-000102
+      category: Cereals
+    - code: I-003072_S-000102
+      category: Sweetener
+    - code: I-003073_S-000102
+      category: Flavor
+    - code: I-003074_S-000102
+      category: Chocolate
+    - code: I-003075_S-000102
+      category: Protein
+    - code: I-003076_S-000102
+      category: Flavor
+    - code: I-003077_S-000102
+      category: Flavor
+    - code: I-003078_S-000102
+      category: Flavor
+    - code: I-003079_S-000102
+      category: Flavor
+    - code: I-003080_S-000102
+      category: Cereals
+    - code: I-003081_S-000102
+      category: Cereals          
+    - code: I-003082_S-000102
+      category: Flavor          
+    - code: I-003083_S-000102
+      category: Flavor          
+    - code: I-003084_S-000102
+      category: Fruits          
+    - code: I-003085_S-000102
+      category: Flavor         
+    - code: I-003086_S-000102
+      category: Fruits          
+    - code: I-003087_S-000102
+      category: Fruits          
+    - code: I-003088_S-000102
+      category: Sweetener          
+    - code: I-003089_S-000102
+      category: Protein
+    - code: I-003090_S-000102
+      category: Protein
+    - code: I-003091_S-000102
+      category: Nuts   
+    - code: I-003092_S-000102
+      category: Butter/Spread 
+    - code: I-003093_S-000102
+      category: Fruits   
+    - code: I-003094_S-000102
+      category: Fiber          
+    - code: I-003095_S-000102
+      category: Seeds         
+    - code: I-003096_S-000102
+      category: Cereals 
+    - code: I-003097_S-000102
+      category: Cereals       
+    - code: I-003098_S-000102
+      category: Fat      
+    - code: I-003099_S-000102
+      category: Cereals      
+    - code: I-003100_S-000102
+      category: Cereals      
+    - code: I-003101_S-000102
+      category: Coffee      
+    - code: I-003102_S-000102
+      category: Nuts     
+    - code: I-003103_S-000102
+      category: Seeds      
+    - code: I-003104_S-000102
+      category: Nuts      
+    - code: I-003105_S-000102
+      category: Nuts  
+    - code: I-003106_S-000102
+      category: Seeds                  
+    - code: I-003107_S-000102
+      category: Cereals                  
+    - code: I-003108_S-000102
+      category: Antioxidant                  
+    - code: I-003109_S-000102
+      category: Salt                  
+    - code: I-003110_S-000102
+      category: Seeds                 
+    - code: I-003111_S-000102
+      category: Protein                 
+    - code: I-003112_S-000102
+      category: Emulsifier                 
+    - code: I-003113_S-000102
+      category: Protein                 
+    - code: I-003114_S-000102
+      category: Lentils                 
+    - code: I-003115_S-000102
+      category: Flavor                  
+    - code: I-003116_S-000102
+      category: Fruits  
+    - code: I-001014_S-002001
+      category: Stabilizer              
+    - code: I-003117_S-000102
+      category: Fat                  
+    - code: I-003118_S-000102
+      category: Seeds                
+    - code: I-003119_S-000102
+      category: Fruits                  
+    - code: I-003120_S-000102
+      category: Flavor   
+    - code: I-000002_S-000102
+      category: Flavor                 
+    - code: I-003121_S-000102
+      category: Nuts                
+    - code: I-003122_S-000102
+      category: Seeds                  
+    - code: I-003123_S-000102
+      category: Seeds                  
+    - code: I-003124_S-000102
+      category: Protein                 
+    - code: I-003125_S-000102
+      category: Protein                 
+    - code: I-003126_S-000102
+      category: Protein 
+    - code: I-003127_S-000102
+      category: Protein 
+    - code: I-003128_S-000102
+      category: Chocolate               
+    - code: I-003129_S-000102
+      category: Milk Product                                                      
+                
+        
+         
+  categoryRules:
+    - category:
+        - Protein
+      minAmount: 1
+    - category:
+        - Cereals
+      minAmount: 1
+    - category:
+        - Nuts
+      minAmount: 1
+    - category:
+        - Flavor
+      minAmount: 1
+    - category:
+        - Fat
+      minAmount: 1
+    - category:
+        - Syrup
+      minAmount: 1
+    - category:
+        - Dry Fruit
+      minAmount: 1
+             
